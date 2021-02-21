@@ -13,6 +13,8 @@
 		57BD449E25E2BE8800EE0EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BD449D25E2BE8800EE0EFE /* Assets.xcassets */; };
 		57BD44A125E2BE8800EE0EFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BD44A025E2BE8800EE0EFE /* Preview Assets.xcassets */; };
 		57BD44A425E2BE8800EE0EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BD44A225E2BE8800EE0EFE /* LaunchScreen.storyboard */; };
+		57BD44AD25E2C58600EE0EFE /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD44AC25E2C58600EE0EFE /* PlayerViewModel.swift */; };
+		57BD44B025E2C8F400EE0EFE /* Аквадискотека.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57BD44AF25E2C8F400EE0EFE /* Аквадискотека.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		57BD44A025E2BE8800EE0EFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57BD44A325E2BE8800EE0EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57BD44A525E2BE8800EE0EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BD44AC25E2C58600EE0EFE /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		57BD44AF25E2C8F400EE0EFE /* Аквадискотека.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Аквадискотека.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		57BD449625E2BE8600EE0EFE /* Player_SwiftUI_Study */ = {
 			isa = PBXGroup;
 			children = (
+				57BD44AF25E2C8F400EE0EFE /* Аквадискотека.mp3 */,
 				57BD449725E2BE8600EE0EFE /* AppDelegate.swift */,
 				57BD449925E2BE8600EE0EFE /* SceneDelegate.swift */,
 				57BD449B25E2BE8600EE0EFE /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				57BD44A225E2BE8800EE0EFE /* LaunchScreen.storyboard */,
 				57BD44A525E2BE8800EE0EFE /* Info.plist */,
 				57BD449F25E2BE8800EE0EFE /* Preview Content */,
+				57BD44AC25E2C58600EE0EFE /* PlayerViewModel.swift */,
 			);
 			path = Player_SwiftUI_Study;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BD44A425E2BE8800EE0EFE /* LaunchScreen.storyboard in Resources */,
+				57BD44B025E2C8F400EE0EFE /* Аквадискотека.mp3 in Resources */,
 				57BD44A125E2BE8800EE0EFE /* Preview Assets.xcassets in Resources */,
 				57BD449E25E2BE8800EE0EFE /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BD449825E2BE8600EE0EFE /* AppDelegate.swift in Sources */,
+				57BD44AD25E2C58600EE0EFE /* PlayerViewModel.swift in Sources */,
 				57BD449A25E2BE8600EE0EFE /* SceneDelegate.swift in Sources */,
 				57BD449C25E2BE8600EE0EFE /* ContentView.swift in Sources */,
 			);
