@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = PlayerViewModel()
     @State private var progress: Double = 0
-   @ObservedObject var viewModel = PlayerViewModel()
     
     var body: some View {
         VStack {
             Slider(value: Binding(get: {
-                self.progress
+                self.viewModel.currentTime
             }, set: { newValue in
                 print("new value:", newValue)
-                self.progress = newValue
+                self.viewModel.currentTime = newValue
                 self.viewModel.setTime(value: newValue)
             }), in: 0...viewModel.maxDuration).padding()
             HStack {
